@@ -27,7 +27,7 @@ Install dependencies:
 
 pip install -r requirements.txt
 ```
-#Set up API Key:
+# Set up API Key:
 
 Create a .env file in the root directory of the project and add your Google API key:
 
@@ -40,22 +40,23 @@ Run the Streamlit application:
 streamlit run app.py
 ```
 
-#Upload Resume:
+# Upload Resume:
 
 Go to http://localhost:8501 in your web browser.
 Paste the job description into the designated text area.
 Upload a PDF file of the resume.
 Click "Submit" to get the evaluation results.
 
-#File Structure
+# File Structure
+
 main(2).py: Main application code using Streamlit for the front-end interface.
 requirements.txt: Python dependencies for the project.
 
-#Dependencies
+# Dependencies
 Streamlit: For creating the interactive web application.
 PyPDF2: For extracting text from PDF files.
 python-dotenv: For loading environment variables.
 google-generativeai: For accessing Google's Gemini Pro model.
 
-#Contributing
+# Contributing
 Contributions are welcome! Please open an issue or submit a pull request if you'd like to contribute to the project.
